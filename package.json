@@ -1,0 +1,16 @@
+{
+  "name": "premise-lambda-example",
+  "version": "1.0.0",
+  "description": "This is a lambda that will call out to a postgres database in an on premise network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./_build.sh",
+    "run": "./_run.sh"
+  },
+  "author": "Charles Thomas Wall III",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^7.18.2"
+  }
+}
